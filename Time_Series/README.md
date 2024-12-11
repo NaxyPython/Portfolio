@@ -48,6 +48,38 @@ This script is designed for educational and professional purposes, demonstrating
 **Insight:**  
 - SARIMA(1,0,1)(2,1,1)[12] was selected as the best model, balancing model complexity and accuracy.
 
+**This model corresponds to a Seasonal Autoregressive Integrated Moving Average (SARIMA) model with the following characteristics:**
+
+### Model Decomposition:
+1. **SARIMA(p,d,q)(P,D,Q)[s]:**
+   - **p = 1**: Non-seasonal autoregressive (AR) component of order 1.
+   - **d = 0**: No non-seasonal differencing (the series is stationary at the non-seasonal level).
+   - **q = 1**: Non-seasonal moving average (MA) component of order 1.
+   - **P = 2**: Seasonal autoregressive (AR) component of order 2.
+   - **D = 1**: One seasonal differencing step to achieve seasonal stationarity.
+   - **Q = 1**: Seasonal moving average (MA) component of order 1.
+   - **s = 12**: Seasonal period (monthly data with an annual cycle).
+
+### Interpretation:
+- **Non-seasonal (p,d,q):**
+  - The **AR(1)** (p=1) component uses immediate past values of the series for predictions.
+  - The series is stationary at the non-seasonal level (d=0), so no additional non-seasonal differencing is needed.
+  - The **MA(1)** (q=1) component uses recent error terms (residuals) to refine the model predictions.
+
+- **Seasonal (P,D,Q):**
+  - The seasonal **AR(2)** (P=2) component uses values from two seasonal periods in the past (for example, values from the same month in previous years).
+  - Seasonal differencing (D=1) is applied to stabilize the seasonal pattern, making the seasonal component stationary.
+  - The seasonal **MA(1)** (Q=1) component addresses the seasonally lagged errors to further improve model fit.
+
+- **Seasonality:**
+  - The seasonal period **s = 12** indicates an annual cycle in the monthly data.
+
+### Conclusion:
+The SARIMA(1,0,1)(2,1,1)[12] model is well-suited for monthly time series that display:
+1. A strong seasonal component with an annual cycle.
+2. A stationary (or seasonally stationary) structure at the non-seasonal level.
+3. Both short-term (non-seasonal AR and MA components) and longer-term (seasonal AR and MA components) dependencies are effectively captured.
+
 
 6. **Forecasting and result visualization:**
    - Predictions for the year 1960.
