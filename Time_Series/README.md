@@ -41,6 +41,14 @@ This script is designed for educational and professional purposes, demonstrating
    - Comparing models using information criteria (AIC and BIC).
    - Selecting the best model for forecasting.
 
+  ![SARIMA Diagnostics1](graphics/S7.png)
+  ![SARIMA Diagnostics2](graphics/S8.png)
+  ![SARIMA Diagnostics3](graphics/S9.png)
+
+**Insight:**  
+- SARIMA(1,1,1)(1,1,1)[12] was selected as the best model, balancing model complexity and accuracy.
+
+
 6. **Forecasting and result visualization:**
    - Predictions for the year 1960.
    - Visualization of forecasts compared to actual data.
