@@ -23,6 +23,12 @@ This script is designed for educational and professional purposes, demonstrating
 2. **Stationarity and differencing:**
    - Stationarity tests to assess the properties of the series.
    - Transforming the series to make them stationary if required.
+  
+     ![Stationarity Check](graphics/S6.png)
+
+  **Insight:**  
+- The original series is non-stationary. After first differencing, the series satisfies the stationarity requirement for ARIMA modeling.
+
 
 3. **Data splitting:**
    - Separation into training (`temperature.train`) and testing (`temperature.test`) datasets.
