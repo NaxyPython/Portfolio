@@ -85,7 +85,7 @@ The SARIMA(1,0,1)(2,1,1)[12] model is well-suited for monthly time series that d
 6. **Forecasting and result visualization:**
    - Predictions for the year 1960.
    - Visualization of forecasts compared to actual data.
-   ![Forecast vs Observed](graphics/S10.png)
+  ![Forecast vs Observed](graphics/S10.png)
 
 **Insight:**  
 - The forecast captures the seasonal trends effectively, with minor deviations in certain months.
