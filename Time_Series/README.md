@@ -51,7 +51,7 @@ This script is designed for educational and professional purposes, demonstrating
 **This model corresponds to a Seasonal Autoregressive Integrated Moving Average (SARIMA) model with the following characteristics:**
 
 **Model Decomposition:**
-1. **SARIMA(p,d,q)(P,D,Q)[s]:**
+  1. **SARIMA(p,d,q)(P,D,Q)[s]:**
    - **p = 1**: Non-seasonal autoregressive (AR) component of order 1.
    - **d = 0**: No non-seasonal differencing (the series is stationary at the non-seasonal level).
    - **q = 1**: Non-seasonal moving average (MA) component of order 1.
@@ -61,20 +61,21 @@ This script is designed for educational and professional purposes, demonstrating
    - **s = 12**: Seasonal period (monthly data with an annual cycle).
 
 **Interpretation:**
-- **Non-seasonal (p,d,q):**
+  - **Non-seasonal (p,d,q):**
   - The **AR(1)** (p=1) component uses immediate past values of the series for predictions.
   - The series is stationary at the non-seasonal level (d=0), so no additional non-seasonal differencing is needed.
   - The **MA(1)** (q=1) component uses recent error terms (residuals) to refine the model predictions.
 
-- **Seasonal (P,D,Q):**
+  - **Seasonal (P,D,Q):**
   - The seasonal **AR(2)** (P=2) component uses values from two seasonal periods in the past (for example, values from the same month in previous years).
   - Seasonal differencing (D=1) is applied to stabilize the seasonal pattern, making the seasonal component stationary.
   - The seasonal **MA(1)** (Q=1) component addresses the seasonally lagged errors to further improve model fit.
 
-- **Seasonality:**
+  - **Seasonality:**
   - The seasonal period **s = 12** indicates an annual cycle in the monthly data.
 
 **Conclusion:**
+
 The SARIMA(1,0,1)(2,1,1)[12] model is well-suited for monthly time series that display:
 1. A strong seasonal component with an annual cycle.
 2. A stationary (or seasonally stationary) structure at the non-seasonal level.
@@ -84,6 +85,11 @@ The SARIMA(1,0,1)(2,1,1)[12] model is well-suited for monthly time series that d
 6. **Forecasting and result visualization:**
    - Predictions for the year 1960.
    - Visualization of forecasts compared to actual data.
+   ![Forecast vs Observed](graphics/S10.png)
+
+**Insight:**  
+- The forecast captures the seasonal trends effectively, with minor deviations in certain months.
+
 
 7. **Bootstrap for prediction intervals:**
    - Using non-parametric bootstrap to estimate prediction uncertainties.
