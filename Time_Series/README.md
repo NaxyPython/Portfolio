@@ -50,7 +50,7 @@ This script is designed for educational and professional purposes, demonstrating
 
 **This model corresponds to a Seasonal Autoregressive Integrated Moving Average (SARIMA) model with the following characteristics:**
 
-### Model Decomposition:
+**Model Decomposition:**
 1. **SARIMA(p,d,q)(P,D,Q)[s]:**
    - **p = 1**: Non-seasonal autoregressive (AR) component of order 1.
    - **d = 0**: No non-seasonal differencing (the series is stationary at the non-seasonal level).
@@ -60,7 +60,7 @@ This script is designed for educational and professional purposes, demonstrating
    - **Q = 1**: Seasonal moving average (MA) component of order 1.
    - **s = 12**: Seasonal period (monthly data with an annual cycle).
 
-### Interpretation:
+**Interpretation:**
 - **Non-seasonal (p,d,q):**
   - The **AR(1)** (p=1) component uses immediate past values of the series for predictions.
   - The series is stationary at the non-seasonal level (d=0), so no additional non-seasonal differencing is needed.
@@ -74,7 +74,7 @@ This script is designed for educational and professional purposes, demonstrating
 - **Seasonality:**
   - The seasonal period **s = 12** indicates an annual cycle in the monthly data.
 
-### Conclusion:
+**Conclusion:**
 The SARIMA(1,0,1)(2,1,1)[12] model is well-suited for monthly time series that display:
 1. A strong seasonal component with an annual cycle.
 2. A stationary (or seasonally stationary) structure at the non-seasonal level.
