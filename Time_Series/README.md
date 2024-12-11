@@ -46,7 +46,7 @@ This script is designed for educational and professional purposes, demonstrating
   ![SARIMA Diagnostics3](graphics/S9.png)
 
 **Insight:**  
-- SARIMA(1,1,1)(1,1,1)[12] was selected as the best model, balancing model complexity and accuracy.
+- SARIMA(1,0,1)(2,1,1)[12] was selected as the best model, balancing model complexity and accuracy.
 
 
 6. **Forecasting and result visualization:**
