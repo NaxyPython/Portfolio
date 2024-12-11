@@ -1,5 +1,3 @@
-Voici une version en anglais du fichier `README.md` :
-
 ```markdown
 # Analysis of São Paulo's Monthly Temperatures with SARIMA Models
 
