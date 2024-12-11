@@ -1,4 +1,3 @@
-```markdown
 # Analysis of São Paulo's Monthly Temperatures with SARIMA Models
 
 ## Introduction
@@ -87,7 +86,7 @@ By combining rigorous analysis, in-depth diagnostics, and robust validation tech
 
 **Hervé Boutrin**  
 Data Scientist specializing in machine learning, predictive modeling, and advanced data analysis. For more information or collaboration opportunities, please visit my [professional profile](https://www.malt.fr/profile/herveboutrin).
-```
+
 
 ---
 
