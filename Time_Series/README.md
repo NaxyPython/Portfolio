@@ -87,18 +87,3 @@ By combining rigorous analysis, in-depth diagnostics, and robust validation tech
 **Hervé Boutrin**  
 Data Scientist specializing in machine learning, predictive modeling, and advanced data analysis. For more information or collaboration opportunities, please visit my [professional profile](https://www.malt.fr/profile/herveboutrin).
 
-
----
-
-### Updating Script Comments to English
-
-Below is a guideline for updating the comments in the script:
-
-1. Replace French comments with their English equivalents, for example:
-   - `# Chargement des données` → `# Loading the data`
-   - `# Tests de stationnarité` → `# Stationarity tests`
-   - `# Visualisation des résultats` → `# Results visualization`
-
-2. Ensure clarity in the comments by explaining the purpose of each block of code in English.
-
-Would you like me to update the script comments for you as well? If yes, please share the updated or complete script file, and I'll make the changes for you.
