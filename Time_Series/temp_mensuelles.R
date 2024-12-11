@@ -5,7 +5,7 @@ library(tseries)
 library(boot)
 
 getwd()
-setwd("C:/Users/hbout/Bureau/Dossier/Portfolio-Data-Science")
+setwd("Data path")
 temperature_data <- read.csv("Data/Sao_Paulo.csv")
 
 # Convert the data into a time series
