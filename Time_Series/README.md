@@ -13,7 +13,7 @@ This script is designed for educational and professional purposes, demonstrating
 1. **Data exploration and visualization:**
    - Analysis of São Paulo's monthly average temperatures.
    - Visualization of trends and empirical correlations.
-     ![Seasonal Plot](Portfolio/Time_Series/S1.png)
+     ![Seasonal Plot](Portfolio/Time_Series/graphics/S1.png)
 
 2. **Stationarity and differencing:**
    - Stationarity tests to assess the properties of the series.
