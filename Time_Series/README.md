@@ -14,7 +14,7 @@ This script is designed for educational and professional purposes, demonstrating
    - Analysis of São Paulo's monthly average temperatures.
    - Visualization of trends and empirical correlations.
      ![Seasonal Plot](graphics/S1.png)
-     **Insight:**  
+   **Insight:**  
 - The data exhibit strong seasonality, suggesting that a seasonal model like SARIMA is appropriate for forecasting.
 
 
