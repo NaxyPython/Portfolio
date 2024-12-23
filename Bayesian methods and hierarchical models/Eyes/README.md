@@ -9,7 +9,7 @@ These scripts implement:
 By running these algorithms, you can infer:
 1. **$\lambda_1$, $\lambda_2$**: The mean of each production line (or “component”).  
 2. **$\sigma^2$**: The variance common to both lines (in this example).  
-3. **\(p_1\)**: The probability of an item belonging to the first production line.
+3. **$p_1$**: The probability of an item belonging to the first production line.
 
 This helps you **quantify** the proportion of products from each line and **identify** differences in mean. Armed with this knowledge, you can **optimize** the lines, detect if one line is producing out-of-spec items, or determine if mixing lines is beneficial or not.
 
