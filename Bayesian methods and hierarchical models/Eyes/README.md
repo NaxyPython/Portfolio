@@ -10,7 +10,7 @@ By running these algorithms, you can infer:
 
 1. **$\lambda_1, \lambda_2$**: The mean of each production line (or “component”).  
 2. **$\sigma^2$**: The variance common to both lines (in this example).  
-3. **$p_1**: The probability of an item belonging to the first production line.
+3. **$p_1$**: The probability of an item belonging to the first production line.
 
 This helps you **quantify** the proportion of products from each line and **identify** differences in mean. Armed with this knowledge, you can **optimize** the lines, detect if one line is producing out-of-spec items, or determine if mixing lines is beneficial.
 
@@ -47,9 +47,9 @@ Consider a manufacturing process with **two production lines**, each with a diff
 
 ## Interpreting Results
 
-- **\(\lambda_1, \lambda_2\)**: Means of each normal component.  
-- **\(\sigma^2\)**: Common variance (assuming both lines share the same variance in this example).  
-- **\(p_1\)**: Proportion of items belonging to the first line.
+- **$\lambda_1, \lambda_2$**: Means of each normal component.  
+- **$\sigma^2$**: Common variance (assuming both lines share the same variance in this example).  
+- **$p_1$**: Proportion of items belonging to the first line.
 
 The scripts produce:
 - **Trace plots**: Show the chain’s evolution, indicating if convergence has been reached.  
