@@ -7,8 +7,8 @@ You suspect that:
 - **Previous failures** might either motivate the dog to improve or discourage it, depending on the training methods.
 
 To quantify how past successes and failures impact the probability of success in a future trial, you run a **Bayesian logistic regression** model. The parameters:
-- **\(\alpha\)** represents the contribution to log-odds from the number of previous successes.
-- **\(\beta\)** represents the contribution to log-odds from the number of previous failures.
+- **$\alpha$** represents the contribution to log-odds from the number of previous successes.
+- **$\beta$** represents the contribution to log-odds from the number of previous failures.
 
 Using the Metropolis-Hastings algorithm, you sample from the posterior distribution of \(\alpha\) and \(\beta\). You can then use these estimates for better-informed adjustments to your training protocols. For instance, if \(\alpha\) is strongly positive, you can place more emphasis on building on successes. If \(\beta\) is highly negative, it might indicate that dogs become discouraged after repeated failures, suggesting a need to modify the training approach.
 
