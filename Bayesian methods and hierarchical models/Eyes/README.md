@@ -37,7 +37,7 @@ Suppose you have a manufacturing process with **two production lines**, each wit
    - Often more efficient for models with convenient conditional distributions.
 
 ## Interpreting Results
-- **lambda1, lambda2**: Means of each normal component.
+- **$\lambda_1$, $\lambda_2$**: Means of each normal component.
 - **$\sigma^2$**: Common variance (if you assume the two lines share the same variance).
 - **p1**: Proportion of items belonging to the first line.
 
