@@ -10,7 +10,7 @@ To quantify how past successes and failures impact the probability of success in
 - **$\alpha$** represents the contribution to log-odds from the number of previous successes.
 - **$\beta$** represents the contribution to log-odds from the number of previous failures.
 
-Using the Metropolis-Hastings algorithm, you sample from the posterior distribution of \(\alpha\) and \(\beta\). You can then use these estimates for better-informed adjustments to your training protocols. For instance, if \(\alpha\) is strongly positive, you can place more emphasis on building on successes. If \(\beta\) is highly negative, it might indicate that dogs become discouraged after repeated failures, suggesting a need to modify the training approach.
+Using the Metropolis-Hastings algorithm, you sample from the posterior distribution of \(\alpha\) and \(\beta\). You can then use these estimates for better-informed adjustments to your training protocols. For instance, if \(\alpha\) is strongly positive, you can place more emphasis on building on successes. If $\beta$ is highly negative, it might indicate that dogs become discouraged after repeated failures, suggesting a need to modify the training approach.
 
 ## Overview
 This repository contains two R scripts that demonstrate a **Bayesian Logistic Regression** approach using **Metropolis-Hastings** sampling. The main objective is to analyze whether past successes and failures in a sequence of training trials affect future success probabilities.
@@ -32,7 +32,7 @@ In a canine training center, each dog undergoes a sequence of binary-outcome tri
 
 ## Results
 - **Posterior Means**  
-  - The scripts print the estimated mean values for **alpha** and **beta**. These provide an average effect of previous successes/failures on the log-odds of success.
+  - The scripts print the estimated mean values for **$\alpha$** and **$\beta$**. These provide an average effect of previous successes/failures on the log-odds of success.
 - **Trace Plots**  
   - Show how the Markov Chain progresses over iterations, helping assess convergence.  
 - **Density Plots**  
