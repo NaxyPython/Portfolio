@@ -48,7 +48,7 @@ My portfolio is organized into categories to help you explore projects relevant 
    - Classification, clustering, and predictive analytics.
 3. [Time Series Forecasting 📈](./Time_Series/)
    - Forecasting for trends, seasonality, and demand.
-4. [Survival Analysis ⏳](./the-Cox-Proportional-Hazards-Model/)
+4. [Survival Analysis ⏳](./Kaplan-Meier estimator and the Cox Proportional Hazards Model/)
    - Cox proportional hazards models for event prediction.
 
 ---
@@ -59,7 +59,7 @@ My portfolio is organized into categories to help you explore projects relevant 
 - **Objective:** Predict patient survival probabilities using the Cox Proportional Hazards model.
 - **Dataset:** Clinical trial data of 1,000 patients.
 - **Outcome:** Achieved 95% accuracy in predicting survival probabilities.
-- [Project Link](./the-Cox-Proportional-Hazards-Model/)
+- [Project Link](./Kaplan-Meier estimator and the Cox Proportional Hazards Model/)
 
 ### **Retail: Sales Forecasting**
 - **Objective:** Forecast sales demand for a retail chain using time series models.
